@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Raw data files (too large for Git — download separately)
+data/
+
+# Model weights (too large for Git)
+*.h5
+*.keras
+*.pkl
+*.joblib
+saved_models/
+
+# GloVe / Word2Vec embedding files (download separately)
+data/*.txt
+data/*.bin
+data/*.vec
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kaggle credentials
+kaggle.json

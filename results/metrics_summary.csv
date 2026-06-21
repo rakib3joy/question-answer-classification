@@ -1,0 +1,23 @@
+Model,Embedding,Accuracy,F1_Macro,F1_Weighted,Category
+Random Forest,BoW,0.5267,0.5295,0.5267,Baseline
+Random Forest,TF-IDF,0.5267,0.5245,0.5215,Baseline
+Logistic Regression,BoW,0.5667,0.5655,0.5627,Baseline
+Logistic Regression,TF-IDF,0.6133,0.6114,0.6082,Baseline
+Naive Bayes,BoW,0.6000,0.5878,0.5810,Baseline
+Naive Bayes,TF-IDF,0.5550,0.5514,0.5420,Baseline
+Neural Network (DNN),BoW,0.5883,0.5960,0.5917,Deep Learning
+Neural Network (DNN),TF-IDF,0.6250,0.6236,0.6213,Deep Learning
+DNN,GloVe,0.5233,0.5288,0.5315,Deep Learning
+DNN,Word2Vec (Skip-gram),0.1400,0.0935,0.0967,Deep Learning
+SimpleRNN,GloVe,0.4650,0.4518,0.4494,Deep Learning
+SimpleRNN,Word2Vec (Skip-gram),0.1767,0.1395,0.1459,Deep Learning
+GRU,GloVe,0.5667,0.5552,0.5557,Deep Learning
+GRU,Word2Vec (Skip-gram),0.1733,0.1177,0.1241,Deep Learning
+Bi-SimpleRNN,GloVe,0.5500,0.5346,0.5373,Deep Learning
+Bi-SimpleRNN,Word2Vec (Skip-gram),0.1333,0.1173,0.1208,Deep Learning
+LSTM,GloVe,0.5500,0.5433,0.5438,Deep Learning
+LSTM,Word2Vec (Skip-gram),0.2050,0.1473,0.1532,Deep Learning
+Bi-GRU,GloVe,0.6150,0.6057,0.6052,Deep Learning
+Bi-GRU,Word2Vec (Skip-gram),0.1967,0.1478,0.1509,Deep Learning
+Bi-LSTM,GloVe,0.5717,0.5661,0.5665,Deep Learning
+Bi-LSTM,Word2Vec (Skip-gram),0.1783,0.1202,0.1247,Deep Learning

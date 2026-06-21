@@ -1,0 +1,7 @@
+Model,Representation,Accuracy,F1_Macro,F1_Weighted
+Random Forest,BoW,0.5267,0.5295,0.5267
+Random Forest,TF-IDF,0.5267,0.5245,0.5215
+Logistic Regression,BoW,0.5667,0.5655,0.5627
+Logistic Regression,TF-IDF,0.6133,0.6114,0.6082
+Naive Bayes,BoW,0.6000,0.5878,0.5810
+Naive Bayes,TF-IDF,0.5550,0.5514,0.5420
