@@ -1,4 +1,4 @@
-# Question & Answer Classification using Deep Learning
+# Question & Answer Topic Classification
 
 An NLP text classification project that classifies Yahoo! Answers forum posts into **10 topical categories** using classical ML baselines and a comprehensive suite of deep learning architectures — evaluated across two word embedding strategies (GloVe and Word2Vec Skip-gram).
 
@@ -28,7 +28,9 @@ An NLP text classification project that classifies Yahoo! Answers forum posts in
 
 ## Project Overview
 
-This project investigates how different text representation strategies and neural architectures affect the performance of a 10-class question-answer topic classifier. It covers the full NLP pipeline from raw text ingestion through preprocessing, feature engineering, model training, and systematic evaluation.
+This project was developed as part of an undergraduate Natural Language Processing (NLP) course.
+
+It investigates how different text representation strategies and neural architectures affect the performance of a 10-class question-answer topic classifier. It covers the full NLP pipeline from raw text ingestion through preprocessing, feature engineering, model training, and systematic evaluation.
 
 **Key contributions:**
 - End-to-end comparison of 6 classical ML models (BoW + TF-IDF) against 16 deep learning configurations
@@ -372,7 +374,7 @@ python generate_architecture.py
 
 ## Known Limitations
 
-1. **Small experimental sample:** Deep learning models were trained on only 3,000 examples (from 280,000 available) due to GPU memory / time constraints on Kaggle free-tier. Results would likely improve substantially on the full dataset.
+1. **Small experimental sample:** Deep learning experiments used a stratified sample of 3,000 training examples (from 280,000 available) due to computational constraints on Kaggle free-tier GPUs. Results would likely improve substantially on the full dataset.
 
 2. **Word2Vec trained on test data:** The custom Skip-gram model was accidentally fitted on the held-out test corpus rather than the training corpus. This causes data leakage in the vocabulary but explains the near-random accuracy, as the model's 20,000-token vocabulary had very poor embedding coverage from the ~500-sentence test corpus.
 
